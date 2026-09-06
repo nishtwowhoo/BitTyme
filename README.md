@@ -1,22 +1,23 @@
+**Vercel** (for landing page / web dashboard) [9].
 # 🥁 BitTyme by The Bit-tles
 **Problem Statement:** Beating the Burnout (Stress & Workload Manager)  
-**Video Presentation:** [Insert Unlisted YouTube Link Here] (Strictly under 5 minutes!)  
+**Video Presentation:** [Insert Unlisted YouTube Link Here]  
 **Presentation Slides:** [Insert Public Google Slides or Canva Link Here]  
 
 ---
 
 ## 📋 Team Members ("The Bit-tles")
 * **Danish Firdaus** - Product Lead
-* **[Member 2 Name]** - UI/UX Designer
-* **[Member 3 Name]** - Tech Lead & Architect
-* **[Member 4 Name]** - Pitch Lead & Storyteller
+* **Muhaimin** - UI/UX Designer
+* **Haqemy** - Tech Lead & Architect
+* **Ben Mudassir** - Pitch Lead & Storyteller
 
 ---
 
 ## 1. Project Overview
 
 ### 🎯 The Problem
-University students are increasingly overwhelmed by competing commitments [1]. However, they rarely burn out from one massive task. Instead, it is the silent, multi-dimensional accumulation of academic deadlines, part-time jobs, social obligations, and everyday errands that drains them [1]. 
+University students are increasingly overwhelmed by competing commitments. However, they rarely burn out from one massive task. Instead, it is the silent, multi-dimensional accumulation of academic deadlines, part-time jobs, social obligations, and everyday errands that drains them. 
 
 Existing solutions like **Google Calendar, Notion, and Todoist** fall short because they are strictly **time-centric or task-centric** [2]. They treat 1 hour of low-effort laundry exactly the same as 1 hour of high-stakes exam preparation. They lack an understanding of cognitive and physical limits, allowing students to overbook their mental energy [3].
 
@@ -92,8 +93,7 @@ We evaluated multiple concepts before aligning on our final direction [4]. To pr
 ### 💻 Chosen Tech Stack
 * **Frontend**: **React Native (Expo)** — Allows rapid development of a cross-platform mobile application (iOS & Android) with clean native styling and fast emulators [8].
 * **Backend & Database**: **Supabase** — Provides PostgreSQL databases, built-in Authentication, and real-time database listeners for immediate task updates [9].
-* **Hosting/Deployment**: **Expo Go** (for instant mobile previewing) & **Vercel** (for landing page / web dashboard) [9].
-
+* **Hosting/Deployment**: **Expo Go** (for instant mobile previewing) & 
 [React Native / Expo App Frontend] │  ▲ (Real-time updates) ▼  │ [Supabase Auth & Database (PostgreSQL)] │ ▼ [Capacity Scoring Algorithm (Local Client Logic)]
 
 ### 📅 Building Phase Roadmap (3-Week Sprint)
