@@ -1,4 +1,3 @@
-**Vercel** (for landing page / web dashboard) [9].
 # 🥁 BitTyme by The Bit-tles
 **Problem Statement:** Beating the Burnout (Stress & Workload Manager)  
 **Video Presentation:** [Insert Unlisted YouTube Link Here]  
@@ -17,12 +16,19 @@
 ## 1. Project Overview
 
 ### 🎯 The Problem
-University students are increasingly overwhelmed by competing commitments. However, they rarely burn out from one massive task. Instead, it is the silent, multi-dimensional accumulation of academic deadlines, part-time jobs, social obligations, and everyday errands that drains them. 
+If you ask any university student how they’re doing, the answer is almost always the same: *"I’m fine, just busy."* 
 
-Existing solutions like **Google Calendar, Notion, and Todoist** fall short because they are strictly **time-centric or task-centric** [2]. They treat 1 hour of low-effort laundry exactly the same as 1 hour of high-stakes exam preparation. They lack an understanding of cognitive and physical limits, allowing students to overbook their mental energy [3].
+Between lectures, part-time jobs, group projects, club commitments, and the endless list of everyday errands, students are constantly juggling a million tiny details. But we rarely burn out because of one giant exam or a single bad day. Instead, it’s a slow, quiet, multi-dimensional pile-up. Because we can't see how much energy we're actually burning, we keep saying "yes" to new commitments, pushing back rest, and running on absolute empty until we suddenly crash.
+
+The tools we rely on to stay organized actually make this worse. Popular apps like **Google Calendar, Notion, and Todoist** are strictly time-centric or task-centric. They treat one hour of folding laundry exactly the same as one hour of a high-stakes, stressful exam. They don't understand that our mental and physical energy have real, human limits. Just because our calendar says we have a "free hour" doesn't mean we have the cognitive capacity to match—and these apps let us blindly overbook ourselves right into burnout.
 
 ### 🥁 Our Solution: BitTyme
-**BitTyme** is a holistic workload manager and active capacity shield for students [3]. Inspired by musical tempos and computer bits, BitTyme shifts the focus from managing "time" to managing **human energy**. The application models a student's personal bandwidth as a balanced rhythm that shifts dynamically based on daily load across 5 core categories: **Mental, Physical, Social, Errands, and Time** [3].
+We built **BitTyme**—a personal workload manager that acts as an active capacity shield for students. 
+
+Inspired by musical tempos and computer bits, BitTyme shifts the focus from managing "time" to managing **human energy**. Instead of letting you pack your calendar with back-to-back blocks until you crash, BitTyme models your daily bandwidth as a personal rhythm. It maps out your actual energy levels across five key categories: **Mental, Physical, Social, Errands, and Time**. 
+
+When your daily rhythm gets off-beat, BitTyme helps you adjust your tempo and protect your peace before you hit a wall.
+
 
 #### ✨ Key Features:
 1. **5-Bucket "Tempo Dashboard"**: Visualizing overall energy across Mental, Physical, Social, Time, and Errands as an active dashboard gauge [3]. 
