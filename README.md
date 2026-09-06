@@ -18,17 +18,16 @@
 ### 🎯 The Problem
 If you ask any university student how they’re doing, the answer is almost always the same: *"I’m fine, just busy."* 
 
-Between lectures, part-time jobs, group projects, club commitments, and the endless list of everyday errands, students are constantly juggling a million tiny details. But we rarely burn out because of one giant exam or a single bad day. Instead, it’s a slow, quiet, multi-dimensional pile-up. Because we can't see how much energy we're actually burning, we keep saying "yes" to new commitments, pushing back rest, and running on absolute empty until we suddenly crash.
+Between lectures, part-time jobs, group projects, club commitments, and the endless list of everyday errands, students are constantly juggling a million tiny details. But we rarely burn out because of one giant exam or a single bad day. Instead, it is a slow, quiet, layered pile up of stress. Because we cannot see how much energy we are actually burning, we keep saying yes to new commitments, pushing back rest, and running on absolute empty until we suddenly crash.
 
-The tools we rely on to stay organized actually make this worse. Popular apps like **Google Calendar, Notion, and Todoist** are strictly time-centric or task-centric. They treat one hour of folding laundry exactly the same as one hour of a high-stakes, stressful exam. They don't understand that our mental and physical energy have real, human limits. Just because our calendar says we have a "free hour" doesn't mean we have the cognitive capacity to match—and these apps let us blindly overbook ourselves right into burnout.
+The tools we rely on to stay organized actually make this worse. Popular apps like **Google Calendar, Notion, and Todoist** are focused purely on time or lists of tasks. They treat one hour of folding laundry exactly the same as one hour of a stressful, intense exam. They do not understand that our mental and physical energy have real, human limits. Just because our calendar says we have a free hour does not mean we have the cognitive capacity to match, and these apps let us blindly overbook ourselves right into burnout.
 
 ### 🥁 Our Solution: BitTyme
-We built **BitTyme**—a personal workload manager that acts as an active capacity shield for students. 
+We built **BitTyme**, a personal workload manager that acts as an active capacity shield for students. 
 
-Inspired by musical tempos and computer bits, BitTyme shifts the focus from managing "time" to managing **human energy**. Instead of letting you pack your calendar with back-to-back blocks until you crash, BitTyme models your daily bandwidth as a personal rhythm. It maps out your actual energy levels across five key categories: **Mental, Physical, Social, Errands, and Time**. 
+Inspired by musical tempos and computer bits, BitTyme shifts the focus from managing time to managing **human energy**. Instead of letting you pack your calendar with endless blocks until you crash, BitTyme models your daily bandwidth as a personal rhythm. It maps out your actual energy levels across five key categories: **Mental, Physical, Social, Errands, and Time**. 
 
-When your daily rhythm gets off-beat, BitTyme helps you adjust your tempo and protect your peace before you hit a wall.
-
+When your daily rhythm gets out of sync, BitTyme helps you adjust your tempo and protect your peace before you hit a wall.
 
 #### ✨ Key Features:
 1. **5-Bucket "Tempo Dashboard"**: Visualizing overall energy across Mental, Physical, Social, Time, and Errands as an active dashboard gauge [3]. 
