@@ -18,10 +18,10 @@
 ### 🎯 The Problem
 
 #### Problem Context & Root Causes
-For university students, academic burnout is rarely triggered by a single massive event, such as a final exam. Instead, it is the cumulative result of a silent, multi-dimensional pile up of daily stressors [3]. Students constantly juggle lectures, part-time employment, group projects, student club commitments, and basic household errands [3]. Because cognitive and physical stress accumulation is invisible, students struggle to gauge their active limits. They continuously accept new responsibilities, sacrifice sleep, and run on empty until sudden exhaustion hits [3].
+For university students, academic burnout is rarely triggered by a single massive event, such as a final exam. Instead, it is the cumulative result of a silent, multi-dimensional pile up of daily stressors. Students constantly juggle lectures, part-time employment, group projects, student club commitments, and basic household errands. Because cognitive and physical stress accumulation is invisible, students struggle to gauge their active limits. They continuously accept new responsibilities, sacrifice sleep, and run on empty until sudden exhaustion hits.
 
 #### The Target Stakeholders
-Our primary users are highly active university students who balance complex, non-academic responsibilities alongside their degree programs [3]. This includes working student-professionals, student organization leaders, and final-year students managing intensive research projects.
+Our primary users are highly active university students who balance complex, non-academic responsibilities alongside their degree programs. This includes working student-professionals, student organization leaders, and final-year students managing intensive research projects.
 
 #### Why Existing Market Solutions Fail
 Industry standard tools like **Google Calendar, Notion, and Todoist** are fundamentally time-centric or task-centric. They treat a calendar hour of passive laundry exactly the same as a calendar hour of a high stakes examination. These applications operate under the assumption of infinite human capacity, encouraging users to pack schedules with back-to-back blocks. They fail to account for real cognitive and emotional bandwidth limits, allowing users to overbook themselves continuously until burnout occurs.
@@ -30,9 +30,9 @@ Industry standard tools like **Google Calendar, Notion, and Todoist** are fundam
 
 ### 🥁 Our Solution: BitTyme
 
-**BitTyme** is a holistic personal workload manager and active capacity shield designed to prevent student burnout [4]. Inspired by musical tempos and computer bits, BitTyme transitions student productivity from managing static time blocks to actively preserving human energy. 
+**BitTyme** is a holistic personal workload manager and active capacity shield designed to prevent student burnout. Inspired by musical tempos and computer bits, BitTyme transitions student productivity from managing static time blocks to actively preserving human energy. 
 
-The application maps out a student's live energy levels across five distinct resource buckets [3, 4]:
+The application maps out a student's live energy levels across five distinct resource buckets:
 1. **Mental**: Cognitive exhaustion from study or exam preparation.
 2. **Physical**: Physical fatigue from workouts, chores, or shifts.
 3. **Social**: The battery required for networking, team meetings, and events.
@@ -46,13 +46,13 @@ By tracking active capacity rather than just calendar hours, BitTyme helps stude
 ### ✨ Key Features
 
 #### 1. The Tempo Dashboard
-Instead of presenting a traditional static calendar, this interface visualizes student bandwidth across the five core resource buckets. Designed as a set of fluid, audio-player style gauges, the dashboard provides a clear sanity check of personal capacity. When any resource gauge enters critical thresholds, the interface changes states to warn the user before severe burnout occurs [4].
+Instead of presenting a traditional static calendar, this interface visualizes student bandwidth across the five core resource buckets. Designed as a set of fluid, audio-player style gauges, the dashboard provides a clear sanity check of personal capacity. When any resource gauge enters critical thresholds, the interface changes states to warn the user before severe burnout occurs.
 
 #### 2. The Tempo Balancer
-When any energy gauge passes eighty five percent capacity, the rebalancing engine intervenes [4]. The system scans the database to isolate low-priority items, such as optional social engagements or non-urgent chores [4]. It then generates a single-tap option to defer those specific tasks to lighter weeks, lowering active stress and protecting user bandwidth [4].
+When any energy gauge passes eighty five percent capacity, the rebalancing engine intervenes. The system scans the database to isolate low-priority items, such as optional social engagements or non-urgent chores. It then generates a single-tap option to defer those specific tasks to lighter weeks, lowering active stress and protecting user bandwidth.
 
 #### 3. Beat Breaks
-To safeguard mental health, the system automates mandatory recovery blocks when the user enters high burnout risk zones [4]. During these protected downtime windows, the application prevents the user from scheduling new academic or vocational tasks. The system then guides the student toward tailored recovery suggestions, such as matching a low physical fatigue score with a recommendation for an outdoor walk [4].
+To safeguard mental health, the system automates mandatory recovery blocks when the user enters high burnout risk zones. During these protected downtime windows, the application prevents the user from scheduling new academic or vocational tasks. The system then guides the student toward tailored recovery suggestions, such as matching a low physical fatigue score with a recommendation for an outdoor walk.
 
 ## 2. Ideation & Process
 
