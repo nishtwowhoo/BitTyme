@@ -29,10 +29,16 @@ Inspired by musical tempos and computer bits, BitTyme shifts the focus from mana
 
 When your daily rhythm gets out of sync, BitTyme helps you adjust your tempo and protect your peace before you hit a wall.
 
-#### ✨ Key Features:
-1. **5-Bucket "Tempo Dashboard"**: Visualizing overall energy across Mental, Physical, Social, Time, and Errands as an active dashboard gauge [3]. 
-2. **Smart "Tempo Balancer" (Auto-Deferral)**: When any capacity bucket exceeds 85% load, BitTyme flags low-priority items (e.g., non-urgent chores or optional events) and suggests auto-deferring them to lighter weeks [3].
-3. **Smart "Beat Breaks" (Active Recovery Locks)**: Protects a student's mental well-being by actively blocking mandatory "Recovery Time" (e.g., sleep, outdoor walking) and preventing new task additions during locked recovery zones [3].
+#### ✨ Key Features
+
+1. **The Tempo Dashboard**
+Instead of just counting hours, this screen visualizes your energy across five distinct categories: Mental, Physical, Social, Time, and Errands. Designed like a set of sleek audio style meters, it shows you exactly which area of your life is filling up. When your Mental or Time gauges hit critical levels, visual indicators alert you instantly before you burn out.
+
+2. **The Tempo Balancer**
+When any of your energy gauges pass eighty five percent, the smart rebalancing system actively steps in. It scans your schedule to find low priority items, such as optional social events or non urgent chores. It then offers a simple one tap option to push those tasks back to a lighter week, instantly lowering your active stress.
+
+3. **Beat Breaks**
+To protect your mental well being, the app actively schedules mandatory rest blocks when you are running on empty. During these protected downtime periods, the application physically locks you out from scheduling academic or work tasks. It then guides you toward specific recovery options, like going for a walk if your physical capacity is high but your mental battery is completely drained.
 
 ---
 
