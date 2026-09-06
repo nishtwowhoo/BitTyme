@@ -16,31 +16,43 @@
 ## 1. Project Overview
 
 ### 🎯 The Problem
-If you ask any university student how they’re doing, the answer is almost always the same: *"I’m fine, just busy."* 
 
-Between lectures, part-time jobs, group projects, club commitments, and the endless list of everyday errands, students are constantly juggling a million tiny details. But we rarely burn out because of one giant exam or a single bad day. Instead, it is a slow, quiet, layered pile up of stress. Because we cannot see how much energy we are actually burning, we keep saying yes to new commitments, pushing back rest, and running on absolute empty until we suddenly crash.
+#### Problem Context & Root Causes
+For university students, academic burnout is rarely triggered by a single massive event, such as a final exam. Instead, it is the cumulative result of a silent, multi-dimensional pile up of daily stressors [3]. Students constantly juggle lectures, part-time employment, group projects, student club commitments, and basic household errands [3]. Because cognitive and physical stress accumulation is invisible, students struggle to gauge their active limits. They continuously accept new responsibilities, sacrifice sleep, and run on empty until sudden exhaustion hits [3].
 
-The tools we rely on to stay organized actually make this worse. Popular apps like **Google Calendar, Notion, and Todoist** are focused purely on time or lists of tasks. They treat one hour of folding laundry exactly the same as one hour of a stressful, intense exam. They do not understand that our mental and physical energy have real, human limits. Just because our calendar says we have a free hour does not mean we have the cognitive capacity to match, and these apps let us blindly overbook ourselves right into burnout.
+#### The Target Stakeholders
+Our primary users are highly active university students who balance complex, non-academic responsibilities alongside their degree programs [3]. This includes working student-professionals, student organization leaders, and final-year students managing intensive research projects.
 
-### 🥁 Our Solution: BitTyme
-We built **BitTyme**, a personal workload manager that acts as an active capacity shield for students. 
-
-Inspired by musical tempos and computer bits, BitTyme shifts the focus from managing time to managing **human energy**. Instead of letting you pack your calendar with endless blocks until you crash, BitTyme models your daily bandwidth as a personal rhythm. It maps out your actual energy levels across five key categories: **Mental, Physical, Social, Errands, and Time**. 
-
-When your daily rhythm gets out of sync, BitTyme helps you adjust your tempo and protect your peace before you hit a wall.
-
-#### ✨ Key Features
-
-1. **The Tempo Dashboard**
-Instead of just counting hours, this screen visualizes your energy across five distinct categories: Mental, Physical, Social, Time, and Errands. Designed like a set of sleek audio style meters, it shows you exactly which area of your life is filling up. When your Mental or Time gauges hit critical levels, visual indicators alert you instantly before you burn out.
-
-2. **The Tempo Balancer**
-When any of your energy gauges pass eighty five percent, the smart rebalancing system actively steps in. It scans your schedule to find low priority items, such as optional social events or non urgent chores. It then offers a simple one tap option to push those tasks back to a lighter week, instantly lowering your active stress.
-
-3. **Beat Breaks**
-To protect your mental well being, the app actively schedules mandatory rest blocks when you are running on empty. During these protected downtime periods, the application physically locks you out from scheduling academic or work tasks. It then guides you toward specific recovery options, like going for a walk if your physical capacity is high but your mental battery is completely drained.
+#### Why Existing Market Solutions Fail
+Industry standard tools like **Google Calendar, Notion, and Todoist** are fundamentally time-centric or task-centric. They treat a calendar hour of passive laundry exactly the same as a calendar hour of a high stakes examination. These applications operate under the assumption of infinite human capacity, encouraging users to pack schedules with back-to-back blocks. They fail to account for real cognitive and emotional bandwidth limits, allowing users to overbook themselves continuously until burnout occurs.
 
 ---
+
+### 🥁 Our Solution: BitTyme
+
+**BitTyme** is a holistic personal workload manager and active capacity shield designed to prevent student burnout [4]. Inspired by musical tempos and computer bits, BitTyme transitions student productivity from managing static time blocks to actively preserving human energy. 
+
+The application maps out a student's live energy levels across five distinct resource buckets [3, 4]:
+1. **Mental**: Cognitive exhaustion from study or exam preparation.
+2. **Physical**: Physical fatigue from workouts, chores, or shifts.
+3. **Social**: The battery required for networking, team meetings, and events.
+4. **Errands**: General daily logistics and life administration.
+5. **Time**: Actual hourly availability.
+
+By tracking active capacity rather than just calendar hours, BitTyme helps students adjust their daily tempo and establish a sustainable lifestyle rhythm.
+
+---
+
+### ✨ Key Features
+
+#### 1. The Tempo Dashboard
+Instead of presenting a traditional static calendar, this interface visualizes student bandwidth across the five core resource buckets. Designed as a set of fluid, audio-player style gauges, the dashboard provides a clear sanity check of personal capacity. When any resource gauge enters critical thresholds, the interface changes states to warn the user before severe burnout occurs [4].
+
+#### 2. The Tempo Balancer
+When any energy gauge passes eighty five percent capacity, the rebalancing engine intervenes [4]. The system scans the database to isolate low-priority items, such as optional social engagements or non-urgent chores [4]. It then generates a single-tap option to defer those specific tasks to lighter weeks, lowering active stress and protecting user bandwidth [4].
+
+#### 3. Beat Breaks
+To safeguard mental health, the system automates mandatory recovery blocks when the user enters high burnout risk zones [4]. During these protected downtime windows, the application prevents the user from scheduling new academic or vocational tasks. The system then guides the student toward tailored recovery suggestions, such as matching a low physical fatigue score with a recommendation for an outdoor walk [4].
 
 ## 2. Ideation & Process
 
