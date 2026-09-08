@@ -102,13 +102,13 @@ We designed a clean, high contrast dark mode mobile interface to keep students e
 
 ---
 
-### 4. What Makes It Different
+## 4. What Makes It Different
 
-BitTyme is not a calendar app. It is a protective energy shield. Below is our market differentiation showing why we stand out from existing tools.
+BitTyme is not a typical calendar or task list application. It functions as an active, supportive companion that shields students from burnout. Below is our strategic market differentiation showing why we stand out from traditional productivity tools.
 
-* **Five Category Capacity Tracking:** Traditional apps like Google Calendar only track chronological hours. BitTyme tracks actual cognitive and physical limits across five distinct areas.
-* **Active Rebalancing Engine:** Notion and Todoist let users pile up infinite lists of tasks. BitTyme actively intervenes to suggest auto deferrals, keeping schedules balanced.
-* **Enforced Rest Windows:** Standard productivity tools push users to constantly do more work. BitTyme protects student wellness by locking in mandatory rest periods during high stress events.
+* **Zero Friction Voice Capture:** Standard applications like Notion and Todoist require constant manual typing, self categorization, and tedious list editing, which quickly leads to tracking fatigue. BitTyme completely eliminates this administrative barrier by allowing users to schedule and manage tasks instantly through a hands free voice widget.
+* **Proactive Schedule Rebalancing:** Popular tools like Google Calendar are passive grids that let users overbook themselves continuously without warning. BitTyme actively analyzes schedule density in the background, intervenes when workloads cross critical limits, and suggests postponing low priority tasks to lighter weeks to protect student sanity.
+* **Interactive Wellness Companionship:** Standard productivity tools are sterile, cold, and clinical. BitTyme introduces a supportive mascot companion as the face of the application. This companion makes task management feel warm, conversational, and highly personal, shifting the user experience from an administrative chore into an active support system.
 
 ---
 
