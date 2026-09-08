@@ -30,29 +30,22 @@ Industry standard tools like **Google Calendar, Notion, and Todoist** are fundam
 
 ### 🥁 Our Solution: BitTyme
 
-**BitTyme** is a holistic personal workload manager and active capacity shield designed to prevent student burnout. Inspired by musical tempos and computer bits, BitTyme transitions student productivity from managing static time blocks to actively preserving human energy. 
+BitTyme is an intelligent, voice first personal workload assistant and conversational wellness companion designed to protect students from academic burnout. 
 
-The application maps out a student's live energy levels across five distinct resource buckets:
-1. **Mental**: Cognitive exhaustion from study or exam preparation.
-2. **Physical**: Physical fatigue from workouts, chores, or shifts.
-3. **Social**: The battery required for networking, team meetings, and events.
-4. **Errands**: General daily logistics and life administration.
-5. **Time**: Actual hourly availability.
-
-By tracking active capacity rather than just calendar hours, BitTyme helps students adjust their daily tempo and establish a sustainable lifestyle rhythm.
+Instead of forcing users to manage tedious calendars and stress inducing to do lists, BitTyme acts as a proactive helper. By combining background schedule intelligence with a supportive companion mascot, the application completely removes the administrative burden of staying organized. BitTyme shifts the focus from simple time tracking to active, conversational workload protection.
 
 ---
 
 ### ✨ Key Features
 
-#### 1. The Tempo Dashboard
-Instead of presenting a traditional static calendar, this interface visualizes student bandwidth across the five core resource buckets. Designed as a set of fluid, audio-player style gauges, the dashboard provides a clear sanity check of personal capacity. When any resource gauge enters critical thresholds, the interface changes states to warn the user before severe burnout occurs.
+#### 1. Hands Free Voice Widget
+Students can add, schedule, or update any task on their calendar simply by speaking to a home screen widget. The conversational artificial intelligence automatically parses the task details in the background, completely eliminating the need to open the app or type manual entries on the go.
 
-#### 2. The Tempo Balancer
-When any energy gauge passes eighty five percent capacity, the rebalancing engine intervenes. The system scans the database to isolate low-priority items, such as optional social engagements or non-urgent chores. It then generates a single-tap option to defer those specific tasks to lighter weeks, lowering active stress and protecting user bandwidth.
+#### 2. Active Schedule Rebalancing 
+This is the core engine of BitTyme. When the system detects that your schedule is getting too packed, it actively intervenes. The app automatically scans your database, flags low priority responsibilities such as optional social commitments or non urgent errands, and suggests postponing them to a lighter week. This active postponement ensures your schedule dynamically adapts to your actual cognitive capacity, keeping your daily workload balanced.
 
-#### 3. Beat Breaks
-To safeguard mental health, the system automates mandatory recovery blocks when the user enters high burnout risk zones. During these protected downtime windows, the application prevents the user from scheduling new academic or vocational tasks. The system then guides the student toward tailored recovery suggestions, such as matching a low physical fatigue score with a recommendation for an outdoor walk.
+#### 3. Interactive Mascot Companion
+Rather than presenting a cold, clinical utility dashboard, BitTyme introduces an animated mascot to serve as the face of the platform. This companion makes the artificial intelligence integration feel warm, alive, and supportive, acting as a personal advocate for the student's mental and physical well being.
 
 ### 2. Ideation & Process
 
