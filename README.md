@@ -55,9 +55,9 @@ We explored several distinct concepts during our initial brainstorming sessions 
 
 | Idea | Why it was dropped / kept |
 | :--- | :--- |
-| ** ** | **Kept.** This solution directly addresses the root causes of student burnout. By shifting the focus from time blocks to multi category cognitive energy capacity, we can actively prevent silent stress accumulation. |
-| ** ** | **Dropped.** Awarding virtual experience points for completing tasks creates an unhealthy incentive loop. It encourages already stressed students to take on more work to gain virtual rewards, which actively worsens burnout. |
-| ** ** | **Dropped.** This is a highly reactive tool. While it helps resolve minor daily chores, it completely fails to address the core problem of lifestyle over commitment and physical exhaustion. |
+| ** Active Schedule Rebalancing ** | **Kept.** This core engine directly resolves the passivity of traditional calendars by actively protecting student bandwidth. Instead of merely tracking and reporting stress levels, the system dynamically analyzes active workload limits and automatically suggests postponing low priority tasks to lighter weeks. This feature was highly validated during mentor consultations as our primary market differentiator and our most impactful product innovation. |
+| ** Streak System ** | **Dropped.** We considered introducing a TikTok style daily streak system to encourage consistent task updates and increase engagement. However, mentor feedback highlighted that daily streak requirements introduce unnecessary psychological pressure on already stressed students. Forcing a busy student to log in daily simply to preserve a virtual streak transforms a supportive wellness companion into an administrative burden, actively worsening the very academic burnout we are trying to prevent. |
+| ** five bucket system ** | **Dropped.** Requiring busy students to manually log and self rate every single task across multiple categories creates heavy cognitive friction and tracking fatigue. This administrative burden risks causing user burnout, turning a wellness tool into an exhausting daily chore rather than a helpful assistant. |
 
 ##### 2.2 Ideation Boards
 
