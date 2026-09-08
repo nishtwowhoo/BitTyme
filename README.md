@@ -17,14 +17,16 @@
 
 ### 🎯 The Problem
 
-#### Problem Context & Root Causes
-For university students, academic burnout is rarely triggered by a single massive event, such as a final exam. Instead, it is the cumulative result of a silent, multi-dimensional pile up of daily stressors. Students constantly juggle lectures, part-time employment, group projects, student club commitments, and basic household errands. Because cognitive and physical stress accumulation is invisible, students struggle to gauge their active limits. They continuously accept new responsibilities, sacrifice sleep, and run on empty until sudden exhaustion hits.
+#### Problem Context and Root Causes
+For university students, academic burnout is rarely triggered by a single massive event, such as a final exam. Instead, it is the cumulative result of a silent, multi dimensional pile up of daily stressors. Students constantly juggle lectures, part time employment, group projects, student club commitments, and basic household errands. Because cognitive and physical stress accumulation is invisible, students struggle to gauge their active limits. They continuously accept new responsibilities, sacrifice sleep, and run on empty until sudden exhaustion hits.
 
 #### The Target Stakeholders
-Our primary users are highly active university students who balance complex, non-academic responsibilities alongside their degree programs. This includes working student-professionals, student organization leaders, and final-year students managing intensive research projects.
+Our primary users are highly active university students who balance complex, non academic responsibilities alongside their degree programs. This includes working student professionals, student organization leaders, and final year students managing intensive research projects.
 
 #### Why Existing Market Solutions Fail
-Industry standard tools like **Google Calendar, Notion, and Todoist** are fundamentally time-centric or task-centric. They treat a calendar hour of passive laundry exactly the same as a calendar hour of a high stakes examination. These applications operate under the assumption of infinite human capacity, encouraging users to pack schedules with back-to-back blocks. They fail to account for real cognitive and emotional bandwidth limits, allowing users to overbook themselves continuously until burnout occurs.
+Industry standard tools like Google Calendar, Notion, and Todoist are fundamentally time centric or task centric. They treat a calendar hour of passive laundry exactly the same as a calendar hour of a high stakes examination. These applications operate under the assumption of infinite human capacity, encouraging users to pack schedules with back to back blocks. 
+
+Furthermore, traditional productivity software relies on constant manual input, tedious self categorization, and active list management. This administrative overhead creates heavy cognitive friction, quickly causing tracking fatigue and forcing busy students to abandon the software entirely. They fail to account for real cognitive and emotional bandwidth limits, allowing users to overbook themselves continuously until burnout occurs.
 
 ---
 
