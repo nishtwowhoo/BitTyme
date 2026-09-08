@@ -62,9 +62,9 @@ We explored several distinct concepts during our initial brainstorming sessions 
 
 | Idea | Why it was dropped / kept |
 | :--- | :--- |
-| **BitTyme (Five Bucket Capacity System)** | **Kept.** This solution directly addresses the root causes of student burnout. By shifting the focus from time blocks to multi category cognitive energy capacity, we can actively prevent silent stress accumulation. |
-| **Gamified Academic Quest System** | **Dropped.** Awarding virtual experience points for completing tasks creates an unhealthy incentive loop. It encourages already stressed students to take on more work to gain virtual rewards, which actively worsens burnout. |
-| **AI Notification & Email Responder** | **Dropped.** This is a highly reactive tool. While it helps resolve minor daily chores, it completely fails to address the core problem of lifestyle over commitment and physical exhaustion. |
+| ** ** | **Kept.** This solution directly addresses the root causes of student burnout. By shifting the focus from time blocks to multi category cognitive energy capacity, we can actively prevent silent stress accumulation. |
+| ** ** | **Dropped.** Awarding virtual experience points for completing tasks creates an unhealthy incentive loop. It encourages already stressed students to take on more work to gain virtual rewards, which actively worsens burnout. |
+| ** ** | **Dropped.** This is a highly reactive tool. While it helps resolve minor daily chores, it completely fails to address the core problem of lifestyle over commitment and physical exhaustion. |
 
 ##### 2.2 Ideation Boards
 
@@ -82,7 +82,7 @@ We consulted with hackathon mentors during the prototype week to pressure test o
 
 | Date | Mentor | Feedback Received | What Was Changed |
 | :--- | :--- | :--- | :--- |
-| 10 September 2026 | Varsha Selvakumar (Hackathon Mentor) | The recovery suggestions might feel like just another set of tasks or annoying pop up notifications that busy students will immediately swipe away without reading. | We added a Hard Lock feature for critical burnout zones. When mental capacity exceeds ninety percent, the system physically locks the task scheduling interface and auto reserves calendar blocks for rest. |
+| 8 September 2026 | Danial Koh Yu Hang | The mentor raised critical concerns regarding cognitive friction and tracking fatigue. Requiring students to manually log and self rate every daily task across five categories creates heavy administrative overhead. This manual effort risks causing user burnout, turning a wellness tool into an active chore rather than a relief. | We completely eliminated the manual five bucket tracking system. To reduce cognitive friction, we integrated conversational artificial intelligence that allows users to add tasks simply by speaking through a home screen widget, without even opening the app. We also introduced an interactive companion mascot as the face of the application. Now, when users open BitTyme, they are immediately welcomed and assisted, shifting the app experience from tedious data entry to passive, friendly support. |
 
 ---
 
