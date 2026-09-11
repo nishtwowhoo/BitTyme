@@ -85,24 +85,98 @@ We consulted with hackathon mentors during the prototype week to pressure test o
 
 ---
 
-### 3. Design & Prototype
+## 3. Design & Prototype
 
-**UI Prototype: [ Public Link to Figma Prototype ]**  
-*(Note: Please ensure your Figma link is set to public so reviewers can open it in an incognito window)*
+**UI Prototype: [ Public Link to Interactive Figma Prototype ]**  
+*(Note: Please ensure your public Figma link is set to open in incognito view for reviewer access)*
 
-We designed a clean, high contrast dark mode mobile interface to keep students engaged and minimize visual fatigue. Below are the three key screens illustrating our core user flow.
+Our user experience strategy is centered on high accessibility, clear visual hierarchy, soothing color accents, and responsive touch controls. Designed around our companion mascot, Tymmie, the interface replaces cold productivity dashboards with a warm, encouraging, and frictionless environment.
+
+Below is the complete walkthrough of our seven key application screens detailing how BitTyme transforms daily workload management.
+
+---
+
+### 📱 Interface Architecture & Screen Walkthrough
 
 #### 1. First Time Welcome Screen (Meet Tymmie)
-![Welcome Screen](C:\Users\danis\Downloads\Welcome-Add-a-task.png)  
+![First Time Welcome Screen](images/Welcome-Add-a-task.png)  
 *Figure 1: The onboarding screen introduces Tymmie, establishing BitTyme as a supportive sidekick that helps students make guilt free schedule adjustments.*
 
-#### 2. The Tempo Balancer
-![Tempo Balancer Screen](images/screen-balancer.png)  
-*Caption: When a capacity gauge exceeds eighty five percent, the Tempo Balancer card slides up, offering a simple single tap option to defer low priority chores to a lighter week.*
+* **User Experience Goal:** Eliminate initial app intimidation and establish immediate emotional rapport with the student.
+* **Interface Highlights:** Upon opening BitTyme for the first time, users are greeted by Tymmie with an encouraging message reassuring them that the app provides support without judgment. The screen immediately presents a simple, low pressure input prompt inviting the student to log their first task through voice or text.
 
-#### 3. Active Beat Breaks
-![Beat Breaks Screen](images/screen-recovery.png)  
-*Caption: In critical red zones, the screen locks with a soothing rest timer. The app prevents the user from scheduling new academic tasks, guiding them instead toward tailored recovery habits.*
+---
+
+#### 2. Smart Greeting Home Screen (Daily Check In)
+![Smart Greeting Home Screen](images/Smart-Greeting-Home.png)  
+*Figure 2: The primary dashboard delivers a personalized greeting, a gentle workload nudge, frequent task quick add buttons, and a prominent voice capture card.*
+
+* **User Experience Goal:** Provide instant workload context while offering effortless, one tap task logging.
+* **Interface Highlights:** 
+  * **Personalized Greeting:** Welcomes the student by name while evaluating current calendar availability.
+  * **Gentle Workload Nudge:** A soft card displaying encouraging context about evening capacity to ease schedule anxiety.
+  * **Quick Add Presets:** One tap shortcuts for frequent recurring activities like Study Block, Gym, or Chores, eliminating repeated manual typing.
+  * **Say It Out Loud Card:** A prominent voice capture trigger letting students speak naturally to log tasks on the go.
+
+---
+
+#### 3. Hands Free Voice Capture Interface
+![Voice Capture Interface](images/Voice-Capture.png)  
+*Figure 3: The voice recognition interface converts spoken thoughts into structured calendar tasks using natural language processing.*
+
+* **User Experience Goal:** Remove all typing barriers and enable rapid task entry during busy or mobile moments.
+* **Interface Highlights:**
+  * **Natural Language Processing:** Listens to casual spoken phrases and automatically extracts task titles, deadlines, and time estimates.
+  * **Instant Task Preview:** Displays a parsed task card showing calculated duration before adding it to the user schedule.
+  * **One Tap Integration:** Allows students to confirm and add the converted task to their digital calendar with a single tap.
+
+---
+
+#### 4. Workload Capacity Calendar View
+![Workload Capacity Calendar](images/Workload-Schedule.png)  
+*Figure 4: The calendar dashboard visualizes daily workload density through intuitive color coding to prevent overcommitment.*
+
+* **User Experience Goal:** Offer visual clarity on daily bandwidth limits to help students spot upcoming exhaustion risks.
+* **Interface Highlights:**
+  * **Color Coded Schedule Overview:** Distinguishes between light, balanced, and overburdened days across the workweek.
+  * **Capacity Intensity Bars:** Displays real time workload weight so students know their limits before accepting new commitments.
+  * **Holistic Task Breakdown:** Categorizes academic, personal, and life logistics into a clean, unified timeline.
+
+---
+
+#### 5. Active Schedule Rebalancing Intervention
+![Active Schedule Rebalancing](images/Rebalancing-Suggestion.png)  
+*Figure 5: Tymmie delivers a proactive rebalancing alert, suggesting automatic task postponements when a day becomes overcrowded.*
+
+* **User Experience Goal:** Proactively protect student mental health by automating schedule relief during peak overload.
+* **Interface Highlights:**
+  * **Proactive Overload Alert:** Tymmie appears with a gentle notification when total daily commitments exceed safe capacity limits.
+  * **Smart Deferral Suggestions:** Identifies non urgent chores or low priority items eligible for rescheduling.
+  * **Single Tap Postponement:** Lets the student shift flagged tasks to lighter weeks with a single button press, instantly restoring schedule balance.
+
+---
+
+#### 6. Non Judgmental Mood Check In
+![Mood Check In](images/Mood-Check-in.png)  
+*Figure 6: The daily emotional reflection screen lets students log their current mood and track emotional consistency over time.*
+
+* **User Experience Goal:** Encourage self awareness and emotional tracking without pressuring students toward artificial positivity.
+* **Interface Highlights:**
+  * **Five Affective Mood Options:** Allows students to select their current feeling ranging from Rough to Bright using expressive icons.
+  * **Reassuring Messaging:** Reminds users that there is no wrong answer, fostering an environment of self compassion.
+  * **Weekly Progress Summary:** Visualizes mood consistency across the week to help students connect workload spikes with emotional fatigue.
+
+---
+
+#### 7. Home Screen Companion Widget
+![Home Screen Companion Widget](images/Widget-Designer.png)  
+*Figure 7: The quick access mobile widget enables hands free voice logging and rapid task reorganization directly from the phone home screen.*
+
+* **User Experience Goal:** Provide instant utility and schedule adjustments without requiring the student to open the full app.
+* **Interface Highlights:**
+  * **Compact Mobile Footprint:** Sits directly on the phone home screen for maximum accessibility.
+  * **Voice Activated Shortcut:** Allows students to tap, speak, and capture thoughts instantly while walking between classes.
+  * **Rapid Task Reorganization:** Provides quick controls to shift deadlines or clear schedule space in seconds.
 
 ---
 
