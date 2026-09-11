@@ -102,8 +102,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![First Time Welcome Screen](images/Welcome-Add-a-task.png)  
 *Figure 1: The welcoming screen introduces Tymmie, establishing BitTyme as a supportive sidekick that helps students make guilt free schedule adjustments.*
 
-* **User Experience Goal:** Eliminate launch friction by enabling instant task capture the moment the application opens, while maximizing daily efficiency through intelligent presets that remember each user's most frequent routines.
-* **Interface Highlights:** Upon opening BitTyme, users are greeted by Tymmie with an encouraging message reassuring them that the app provides support without judgment. The screen immediately presents a simple, low pressure input prompt inviting the student to log their task through voice or text.
+Upon launching BitTyme, users are greeted by Tymmie with an encouraging message that offers support without judgment. To eliminate launch friction and maximize daily efficiency, the interface immediately presents a low pressure prompt for instant voice or text logging, while intelligent presets automatically remember each student's most frequent routines.
 
 ---
 
@@ -111,12 +110,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![Smart Greeting Home Screen](images/Smart-Greeting-Home.png)  
 *Figure 2: The primary dashboard delivers a personalized greeting, a gentle workload nudge, frequent task quick add buttons, and a prominent voice capture card.*
 
-* **User Experience Goal:** Provide instant workload context while offering effortless, one tap task logging.
-* **Interface Highlights:** 
-  * **Personalized Greeting:** Welcomes the student by name while evaluating current calendar availability.
-  * **Gentle Workload Nudge:** A soft card displaying encouraging context about evening capacity to ease schedule anxiety.
-  * **Quick Add Presets:** One tap shortcuts for frequent recurring activities like Study Block, Gym, or Chores, eliminating repeated manual typing.
-  * **Say It Out Loud Card:** A prominent voice capture trigger letting students speak naturally to log tasks on the go.
+The Smart Greeting Home Screen delivers instant workload clarity while offering effortless, one tap task logging to ease schedule anxiety. Upon entering the dashboard, students receive a personalized greeting evaluating their current calendar availability alongside a soft workload nudge card. To streamline daily organization, the layout features quick add presets for frequent recurring activities like studying or exercising, together with a prominent voice capture card that lets students speak naturally on the go.
 
 ---
 
@@ -124,11 +118,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![Voice Capture Interface](images/Voice-Capture.png)  
 *Figure 3: The voice recognition interface converts spoken thoughts into structured calendar tasks using natural language processing.*
 
-* **User Experience Goal:** Remove all typing barriers and enable rapid task entry during busy or mobile moments.
-* **Interface Highlights:**
-  * **Natural Language Processing:** Listens to casual spoken phrases and automatically extracts task titles, deadlines, and time estimates.
-  * **Instant Task Preview:** Displays a parsed task card showing calculated duration before adding it to the user schedule.
-  * **One Tap Integration:** Allows students to confirm and add the converted task to their digital calendar with a single tap.
+The Hands Free Voice Capture Interface removes all typing barriers to enable rapid task logging during busy or mobile moments. Powered by natural language processing, the system listens to casual spoken phrases and automatically extracts task titles, deadlines, and time estimates. It then presents an instant task preview displaying the calculated duration, allowing students to confirm and integrate converted items into their digital calendar with a single tap.
 
 ---
 
@@ -136,11 +126,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![Workload Capacity Calendar](images/Workload-Schedule.png)  
 *Figure 4: The calendar dashboard visualizes daily workload density through intuitive color coding to prevent overcommitment.*
 
-* **User Experience Goal:** Offer visual clarity on daily bandwidth limits to help students spot upcoming exhaustion risks.
-* **Interface Highlights:**
-  * **Color Coded Schedule Overview:** Distinguishes between light, balanced, and overburdened days across the workweek.
-  * **Capacity Intensity Bars:** Displays real time workload weight so students know their limits before accepting new commitments.
-  * **Holistic Task Breakdown:** Categorizes academic, personal, and life logistics into a clean, unified timeline.
+The Workload Capacity Calendar View offers visual clarity on daily bandwidth limits to help students spot upcoming exhaustion risks before overcommitting. The interface features a color coded schedule overview that distinguishes between light, balanced, and overburdened days across the workweek. By incorporating capacity intensity bars to display real time workload weight alongside a holistic task breakdown across academic, personal, and life logistics, the layout creates a clean, unified timeline for stress free planning.
 
 ---
 
@@ -148,11 +134,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![Active Schedule Rebalancing](images/Rebalancing-Suggestion.png)  
 *Figure 5: Tymmie delivers a proactive rebalancing alert, suggesting automatic task postponements when a day becomes overcrowded.*
 
-* **User Experience Goal:** Proactively protect student mental health by automating schedule relief during peak overload.
-* **Interface Highlights:**
-  * **Proactive Overload Alert:** Tymmie appears with a gentle notification when total daily commitments exceed safe capacity limits.
-  * **Smart Deferral Suggestions:** Identifies non urgent chores or low priority items eligible for rescheduling.
-  * **Single Tap Postponement:** Lets the student shift flagged tasks to lighter weeks with a single button press, instantly restoring schedule balance.
+The Active Schedule Rebalancing feature proactively protects student mental health by automating schedule relief during peak overload. When total daily commitments exceed safe capacity limits, Tymmie appears with a gentle overload alert notification. The system automatically identifies non urgent chores or low priority items eligible for rescheduling and provides smart deferral suggestions, allowing students to shift flagged tasks to lighter weeks with a single button press to instantly restore schedule balance.
 
 ---
 
@@ -160,11 +142,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![Mood Check In](images/Mood-Check-in.png)  
 *Figure 6: The daily emotional reflection screen lets students log their current mood and track emotional consistency over time.*
 
-* **User Experience Goal:** Encourage self awareness and emotional tracking without pressuring students toward artificial positivity.
-* **Interface Highlights:**
-  * **Five Affective Mood Options:** Allows students to select their current feeling ranging from Rough to Bright using expressive icons.
-  * **Reassuring Messaging:** Reminds users that there is no wrong answer, fostering an environment of self compassion.
-  * **Weekly Progress Summary:** Visualizes mood consistency across the week to help students connect workload spikes with emotional fatigue.
+The Non Judgmental Mood Check In screen encourages self awareness and emotional reflection without pressuring students toward artificial positivity. Featuring five affective mood options with expressive icons ranging from Rough to Bright, the layout allows students to record their internal state while receiving reassuring messaging that reminds them there is no wrong answer. Furthermore, a weekly progress summary visualizes mood consistency over time, helping students connect workload spikes with emotional fatigue to cultivate self compassion.
 
 ---
 
@@ -172,11 +150,7 @@ Below is the complete walkthrough of our seven key application screens detailing
 ![Home Screen Companion Widget](images/Widget-Designer.png)  
 *Figure 7: The quick access mobile widget enables hands free voice logging and rapid task reorganization directly from the phone home screen.*
 
-* **User Experience Goal:** Provide full widget customizability within the app for instant utility and schedule adjustments without requiring the student to open the full app.
-* **Interface Highlights:**
-  * **Compact Mobile Footprint:** Sits directly on the phone home screen for maximum accessibility.
-  * **Voice Activated Shortcut:** Allows students to tap, speak, and add, edit their schedule instantly while walking between classes.
-  * **Rapid Task Reorganization:** Provides quick controls to shift deadlines or clear schedule space in seconds through the widget.
+The Home Screen Widget Designer provides full widget customizability directly within the application to deliver instant utility without requiring students to open the full interface. Designed with a compact mobile footprint that sits on the phone home screen for maximum accessibility, the widget features a voice activated shortcut for students to tap, speak, and edit their schedule on the go between classes. Furthermore, rapid task reorganization controls allow users to shift deadlines or clear schedule space in seconds directly from the widget.
 
 ---
 
