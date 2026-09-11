@@ -131,8 +131,7 @@ To keep BitTyme realistic to build within the hackathon timeline while still del
 
 * ### Voice & AI Task Parsing: (Simulated for this build)
   Why we chose it: Real speech-to-text and AI-based task parsing (e.g. Whisper, or an LLM API) require paid usage-based billing beyond initial trial credits, which falls outside our free-tier constraint. To stay within      budget while still demonstrating the intended experience, the prototype simulates this: tapping the mic shows a brief listening state, then parses input using local keyword matching (e.g. "gym" → Physical, "essay" →       Mental) rather than a live API call.
-
-  Expected constraints: This is an intentional scope decision, not a technical limitation — our team understands the real implementation path (speech-to-text API feeding an LLM prompt for categorization) and has scoped it   as a clearly-labelled future integration once the project has a funding or billing plan in place.
+  * Expected constraints: This is an intentional scope decision, not a technical limitation — our team understands the real implementation path (speech-to-text API feeding an LLM prompt for categorization) and has scoped it   as a clearly-labelled future integration once the project has a funding or billing plan in place.
 
 * ### Hosting & Deployment: Replit + Expo Go
   Why we chose it: Replit hosts our development environment with built-in secrets management and Git sync to our public repo, all on its free tier. Expo Go handles running and testing the app on physical devices without     needing paid build services.
