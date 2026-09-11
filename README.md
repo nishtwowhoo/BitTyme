@@ -168,15 +168,15 @@ Below is the complete walkthrough of our seven key application screens detailing
 
 ---
 
-#### 7. Home Screen Companion Widget
+#### 7. Home Screen Widget Designer
 ![Home Screen Companion Widget](images/Widget-Designer.png)  
 *Figure 7: The quick access mobile widget enables hands free voice logging and rapid task reorganization directly from the phone home screen.*
 
-* **User Experience Goal:** Provide instant utility and schedule adjustments without requiring the student to open the full app.
+* **User Experience Goal:** Provide full widget customizability within the app for instant utility and schedule adjustments without requiring the student to open the full app.
 * **Interface Highlights:**
   * **Compact Mobile Footprint:** Sits directly on the phone home screen for maximum accessibility.
-  * **Voice Activated Shortcut:** Allows students to tap, speak, and capture thoughts instantly while walking between classes.
-  * **Rapid Task Reorganization:** Provides quick controls to shift deadlines or clear schedule space in seconds.
+  * **Voice Activated Shortcut:** Allows students to tap, speak, and add, edit their schedule instantly while walking between classes.
+  * **Rapid Task Reorganization:** Provides quick controls to shift deadlines or clear schedule space in seconds through the widget.
 
 ---
 
