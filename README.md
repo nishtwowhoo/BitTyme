@@ -43,11 +43,14 @@ Instead of forcing users to manage tedious calendars and stress inducing to do l
 #### 1. Hands Free Voice Widget
 Students can add, schedule, or update any task on their calendar simply by speaking to a home screen widget. The conversational artificial intelligence automatically parses the task details in the background, completely eliminating the need to open the app or type manual entries on the go.
 
-#### 2. Active Schedule Rebalancing 
+#### 2. Smart Greeting and Frequent Task Shortcuts
+When you launch the application, BitTyme immediately welcomes you with a personalized greeting screen that proactively asks if you would like to log a task. The system automatically learns your daily routines and saves your most frequent activities as one tap shortcuts, allowing you to log recurring study blocks, gym workouts, or routine chores instantly without repeating details.
+
+#### 3. Active Schedule Rebalancing 
 This is the core engine of BitTyme. When the system detects that your schedule is getting too packed, it actively intervenes. The app automatically scans your database, flags low priority responsibilities such as optional social commitments or non urgent errands, and suggests postponing them to a lighter week. This active postponement ensures your schedule dynamically adapts to your actual cognitive capacity, keeping your daily workload balanced.
 
-#### 3. Interactive Mascot Companion
-Rather than presenting a cold, clinical utility dashboard, BitTyme introduces an animated mascot to serve as the face of the platform. This companion makes the artificial intelligence integration feel warm, alive, and supportive, acting as a personal advocate for the student's mental and physical well being.
+#### 4. Interactive Mascot Companion
+Rather than presenting a cold, clinical utility dashboard, BitTyme introduces an animated mascot to serve as the face of the platform. This companion makes the artificial intelligence integration feel warm, alive, and supportive, acting as a personal advocate for student mental and physical well being.
 
 ### 2. Ideation & Process
 
