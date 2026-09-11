@@ -100,10 +100,10 @@ Below is the complete walkthrough of our seven key application screens detailing
 
 #### 1. First Time Welcome Screen (Meet Tymmie)
 ![First Time Welcome Screen](images/Welcome-Add-a-task.png)  
-*Figure 1: The onboarding screen introduces Tymmie, establishing BitTyme as a supportive sidekick that helps students make guilt free schedule adjustments.*
+*Figure 1: The welcoming screen introduces Tymmie, establishing BitTyme as a supportive sidekick that helps students make guilt free schedule adjustments.*
 
-* **User Experience Goal:** Eliminate initial app intimidation and establish immediate emotional rapport with the student.
-* **Interface Highlights:** Upon opening BitTyme for the first time, users are greeted by Tymmie with an encouraging message reassuring them that the app provides support without judgment. The screen immediately presents a simple, low pressure input prompt inviting the student to log their first task through voice or text.
+* **User Experience Goal:** Eliminate launch friction by enabling instant task capture the moment the application opens, while maximizing daily efficiency through intelligent presets that remember each user's most frequent routines.
+* **Interface Highlights:** Upon opening BitTyme, users are greeted by Tymmie with an encouraging message reassuring them that the app provides support without judgment. The screen immediately presents a simple, low pressure input prompt inviting the student to log their task through voice or text.
 
 ---
 
