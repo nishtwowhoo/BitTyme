@@ -87,8 +87,7 @@ We consulted with hackathon mentors during the prototype week to pressure test o
 
 ## 3. Design & Prototype
 
-**UI Prototype: [ Public Link to Interactive Figma Prototype ]**  
-*(Note: Please ensure your public Figma link is set to open in incognito view for reviewer access)*
+**UI Prototype: https://canva.link/l60hhniv4jvi39q**  
 
 Our user experience strategy is centered on high accessibility, clear visual hierarchy, soothing color accents, and responsive touch controls. Designed around our companion mascot, Tymmie, the interface replaces cold productivity dashboards with a warm, encouraging, and frictionless environment.
 
