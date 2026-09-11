@@ -92,9 +92,9 @@ We consulted with hackathon mentors during the prototype week to pressure test o
 
 We designed a clean, high contrast dark mode mobile interface to keep students engaged and minimize visual fatigue. Below are the three key screens illustrating our core user flow.
 
-#### 1. The Tempo Dashboard
-![Tempo Dashboard Screen](images/screen-dashboard.png)  
-*Caption: The main dashboard visualizes active capacity across Mental, Physical, Social, Time, and Errands. The gauges glow green during healthy periods and shift to bright amber or red when thresholds are breached.*
+#### 1. First Time Welcome Screen (Meet Tymmie)
+![Welcome Screen](C:\Users\danis\Downloads\Welcome-Add-a-task.png)  
+*Figure 1: The onboarding screen introduces Tymmie, establishing BitTyme as a supportive sidekick that helps students make guilt free schedule adjustments.*
 
 #### 2. The Tempo Balancer
 ![Tempo Balancer Screen](images/screen-balancer.png)  
