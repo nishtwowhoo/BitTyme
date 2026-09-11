@@ -196,23 +196,23 @@ BitTyme is not a typical calendar or task list application. It functions as an a
 
 To keep BitTyme realistic to build within the hackathon timeline while still delivering our core differentiator — active, conversational workload protection — we selected a lightweight, entirely free-tier developer stack.
 
-* ### Frontend: (React Native with Expo)
-  Why we chose it: A single JavaScript/TypeScript codebase runs natively on both iOS and Android. Expo Go lets our team and judges run the live app instantly on a physical device by scanning a QR code, with no build         pipeline needed for demoing.
+### Frontend: (React Native with Expo)
+Why we chose it: A single JavaScript/TypeScript codebase runs natively on both iOS and Android. Expo Go lets our team and judges run the live app instantly on a physical device by scanning a QR code, with no build pipeline needed for demoing.
   * Expected constraints: Expo's managed workflow does not support true OS-level home screen widgets without ejecting to a bare native workflow, which would break our free, low-friction build process. We are implementing      voice capture as an in-app microphone button rather than a true home screen widget for this build, with a genuine OS widget noted as a future native extension.
 
-* ### Backend & Database: (Supabase (PostgreSQL))
-  Why we chose it: Supabase provides a managed Postgres database with built-in authentication and auto-generated APIs, letting us avoid building a custom backend during a time-constrained build phase. The free tier          requires no card and comfortably covers our scale.
+### Backend & Database: (Supabase (PostgreSQL))
+Why we chose it: Supabase provides a managed Postgres database with built-in authentication and auto-generated APIs, letting us avoid building a custom backend during a time-constrained build phase. The free tier requires no card and comfortably covers our scale.
   * Expected constraints: The free tier limits concurrent active database connections, so we will write efficient, batched queries for the energy algorithm rather than polling continuously.
 
-* ### Voice & AI Task Parsing: (Simulated for this build)
-  Why we chose it: Real speech-to-text and AI-based task parsing (e.g. Whisper, or an LLM API) require paid usage-based billing beyond initial trial credits, which falls outside our free-tier constraint. To stay within      budget while still demonstrating the intended experience, the prototype simulates this: tapping the mic shows a brief listening state, then parses input using local keyword matching (e.g. "gym" → Physical, "essay" →       Mental) rather than a live API call.
+### Voice & AI Task Parsing: (Simulated for this build)
+Why we chose it: Real speech-to-text and AI-based task parsing (e.g. Whisper, or an LLM API) require paid usage-based billing beyond initial trial credits, which falls outside our free-tier constraint. To stay within budget while still demonstrating the intended experience, the prototype simulates this: tapping the mic shows a brief listening state, then parses input using local keyword matching (e.g. "gym" → Physical, "essay" → Mental) rather than a live API call.
   * Expected constraints: This is an intentional scope decision, not a technical limitation — our team understands the real implementation path (speech-to-text API feeding an LLM prompt for categorization) and has scoped it   as a clearly-labelled future integration once the project has a funding or billing plan in place.
 
-* ### Hosting & Deployment: Replit + Expo Go
-  Why we chose it: Replit hosts our development environment with built-in secrets management and Git sync to our public repo, all on its free tier. Expo Go handles running and testing the app on physical devices without     needing paid build services.
+### Hosting & Deployment: Replit + Expo Go
+Why we chose it: Replit hosts our development environment with built-in secrets management and Git sync to our public repo, all on its free tier. Expo Go handles running and testing the app on physical devices without needing paid build services.
   * Expected constraints: We are intentionally not using Expo Application Services (EAS) builds, since Expo Go alone satisfies the deployability requirement and EAS's free tier has limited monthly build quotas. Replit's       free tier can also be slower with multiple simultaneous collaborators, so we test critical flows on physical devices ahead of demo time rather than relying solely on Replit's live preview.
 
-* ### System Architecture Diagram
+### System Architecture Diagram
 
   <img width="1128" height="880" alt="image" src="https://github.com/user-attachments/assets/414d51ec-d1cf-401b-8b96-d2ff8478a2e4" />
 
