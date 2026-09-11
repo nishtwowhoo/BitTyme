@@ -221,7 +221,7 @@ To keep BitTyme realistic to build within the hackathon timeline while still del
 
 
 
-* ### Build Plan & Scope
+### Build Plan & Scope
     Our initial prototype (submitted for the ideation round) used mock, locally-stored data to demonstrate the Tempo Dashboard, Tempo Balancer, and Beat Breaks screens. The 3-week build phase below scopes the work to          implement the full, real system behind them.
 
 * Week 1: Base Core & Authentication (Sept 21 – Sept 27)
