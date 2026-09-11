@@ -74,13 +74,14 @@ We mapped out our ideation process using visual diagrams to understand the relat
 ![BitTyme User Journey Flow](images/user-flow.png)  
 *Figure 2: Our User Journey Flow tracks how a newly scheduled task is calculated by the energy algorithm, triggering the rebalancing engine if load limits are exceeded.*
 
-##### 2.3 Mentor Consultation
+### 2.3 Mentor Consultation
 
 We consulted with hackathon mentors during the prototype week to pressure test our concept and refine our user experience.
 
 | Date | Mentor | Feedback Received | What Was Changed |
 | :--- | :--- | :--- | :--- |
 | 8 September 2026 | Danial Koh Yu Hang | The mentor raised critical concerns regarding cognitive friction and tracking fatigue. Requiring students to manually log and self rate every daily task across five categories creates heavy administrative overhead. This manual effort risks causing user burnout, turning a wellness tool into an active chore rather than a relief. | We completely eliminated the manual five bucket tracking system. To reduce cognitive friction, we integrated conversational artificial intelligence that allows users to add tasks simply by speaking through a home screen widget, without even opening the app. We also introduced an interactive companion mascot as the face of the application. Now, when users open BitTyme, they are immediately welcomed and assisted, shifting the app experience from tedious data entry to passive, friendly support. |
+| 11 September 2026 | Janelle Tan | The mentor strongly validated the core product concept, stating she could personally see herself using the app daily. However, she noted that the initial user interface was visual lackluster and unintuitive, making feature navigation and overall app flow hard to understand. | We completely overhauled our user interface design system from the ground up. We implemented high contrast visual hierarchy, vibrant cards, clear layout pathways, and prominent mascot animations to ensure that task entry, schedule rebalancing, and recovery features are effortless to understand at a single glance. |
 
 ---
 
