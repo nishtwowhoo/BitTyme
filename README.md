@@ -121,7 +121,7 @@ BitTyme is not a typical calendar or task list application. It functions as an a
 
 To keep BitTyme realistic to build within the hackathon timeline while still delivering our core differentiator — active, conversational workload protection — we selected a lightweight, entirely free-tier developer stack.
 
-* Frontend: (React Native with Expo)
+* ### Frontend: (React Native with Expo)
   Why we chose it: A single JavaScript/TypeScript codebase runs natively on both iOS and Android. Expo Go lets our team and judges run the live app instantly on a physical device by scanning a QR code, with no build         pipeline needed for demoing.
   * Expected constraints: Expo's managed workflow does not support true OS-level home screen widgets without ejecting to a bare native workflow, which would break our free, low-friction build process. We are implementing      voice capture as an in-app microphone button rather than a true home screen widget for this build, with a genuine OS widget noted as a future native extension.
 
