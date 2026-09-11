@@ -117,33 +117,41 @@ BitTyme is not a typical calendar or task list application. It functions as an a
 
 ### 5. Technical Architecture & Feasibility
 
-#### Tech Stack
+Tech Stack
 
-To ensure rapid development and reliable execution during the hackathon, we selected a lightweight and highly efficient developer stack.
+To keep BitTyme realistic to build within the hackathon timeline while still delivering our core differentiator — active, conversational workload protection — we selected a lightweight, entirely free-tier developer stack.
 
-* **Frontend: React Native with Expo**
-  * *Why we chose it:* It allows us to write a single clean TypeScript codebase that compiles natively for iOS and Android. Expo Go enables our team to run live tests on actual mobile devices instantly.
-  * *Expected constraints:* Expo Go has minor limitations when integrating custom native device modules, meaning we must restrict our features to standard web and mobile APIs.
-* **Backend & Database: Supabase (PostgreSQL)**
-  * *Why we chose it:* Supabase provides a powerful PostgreSQL database with built in user authentication and real time database listeners out of the box, saving us from building a heavy custom backend.
-  * *Expected constraints:* The Supabase free tier has a strict limit on active database connections, so we must write clean, efficient database queries to avoid rate limits.
-* **Hosting & Deployment: Vercel & Expo Application Services (EAS)**
-  * *Why we chose it:* It offers seamless continuous deployment pipelines. Web assets are hosted on Vercel, while mobile builds are distributed smoothly through EAS.
-  * *Expected constraints:* The EAS free tier can have long build queues during peak hackathon hours, so we will run local emulator testing before triggering cloud builds.
+Frontend: React Native with Expo
+Why we chose it: A single JavaScript/TypeScript codebase runs natively on both iOS and Android. Expo Go lets our team and judges run the live app instantly on a physical device by scanning a QR code, with no build pipeline needed for demoing.
+Expected constraints: Expo's managed workflow does not support true OS-level home screen widgets without ejecting to a bare native workflow, which would break our free, low-friction build process. We are implementing voice capture as an in-app microphone button rather than a true home screen widget for this build, with a genuine OS widget noted as a future native extension.
 
-#### Build Plan & Scope
+Backend & Database: Supabase (PostgreSQL)
+Why we chose it: Supabase provides a managed Postgres database with built-in authentication and auto-generated APIs, letting us avoid building a custom backend during a time-constrained build phase. The free tier requires no card and comfortably covers our scale.
+Expected constraints: The free tier limits concurrent active database connections, so we will write efficient, batched queries for the energy algorithm rather than polling continuously.
 
-To deliver a working, fully deployable mobile build by the end of the competition, we have scoped our development timeline into a tight three week roadmap.
+Voice & AI Task Parsing: Simulated for this build
+Why we chose it: Real speech-to-text and AI-based task parsing (e.g. Whisper, or an LLM API) require paid usage-based billing beyond initial trial credits, which falls outside our free-tier constraint. To stay within budget while still demonstrating the intended experience, the prototype simulates this: tapping the mic shows a brief listening state, then parses input using local keyword matching (e.g. "gym" → Physical, "essay" → Mental) rather than a live API call.
+Expected constraints: This is an intentional scope decision, not a technical limitation — our team understands the real implementation path (speech-to-text API feeding an LLM prompt for categorization) and has scoped it as a clearly-labelled future integration once the project has a funding or billing plan in place.
 
-* **Week 1: Base Core & Authentication (September 21 to September 27)**
-  * Set up user registration and login flows using Supabase Auth.
-  * Initialize the PostgreSQL database schema and link the tables to our app.
-  * Build the static frontend mobile home screen displaying our five capacity gauges.
-* **Week 2: Capacity Logic & Balancer Middleware (September 28 to October 4)**
-  * Write the client side algorithm that aggregates user tasks to calculate live energy percentages.
-  * Develop the Tempo Balancer pop up card that queries the database for low priority tasks when load limits are crossed.
-  * Build the interactive task input screen.
-* **Week 3: Recovery Locks & Deployment (October 5 to October 11)**
-  * Implement the Beat Break dashboard lockout screen and countdown timer.
-  * Run thorough end to end bug testing on physical devices using Expo Go.
-  * Deploy the final builds and generate a scannable QR code for the judges.
+Hosting & Deployment: Replit + Expo Go
+Why we chose it: Replit hosts our development environment with built-in secrets management and Git sync to our public repo, all on its free tier. Expo Go handles running and testing the app on physical devices without needing paid build services.
+Expected constraints: We are intentionally not using Expo Application Services (EAS) builds, since Expo Go alone satisfies the deployability requirement and EAS's free tier has limited monthly build quotas. Replit's free tier can also be slower with multiple simultaneous collaborators, so we test critical flows on physical devices ahead of demo time rather than relying solely on Replit's live preview.
+
+Build Plan & Scope
+
+Our initial prototype (submitted for the ideation round) used mock, locally-stored data to demonstrate the Tempo Dashboard, Tempo Balancer, and Beat Breaks screens. The 3-week build phase below scopes the work to implement the full, real system behind them.
+
+Week 1: Base Core & Authentication (Sept 21 – Sept 27)
+Set up user registration and login flows using Supabase Auth.
+Initialise the PostgreSQL schema for tasks and capacity categories (mental, time, physical, social, errands), and link tables to the app.
+Connect the Tempo Dashboard's capacity gauges to real, persisted data.
+
+Week 2: Energy Algorithm & Tempo Balancer (Sept 28 – Oct 4)
+Build the client-side energy algorithm that aggregates logged tasks into live capacity percentages per category.
+Develop the Tempo Balancer pop-up, which queries the database for low-priority tasks to defer when a gauge crosses the eighty-five percent threshold.
+Build the task input screen, including the simulated mic-button voice capture flow.
+
+Week 3: Beat Breaks & Deployment (Oct 5 – Oct 11)
+Implement the Beat Breaks lockout screen and recovery timer for critical (red zone) capacity states.
+Add mascot animations (Lottie) to the greeting screen and key interaction points.
+Run end-to-end testing on physical devices via Expo Go, then finalise the build and generate a scannable QR code for judges.
