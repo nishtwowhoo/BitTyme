@@ -137,21 +137,27 @@ Hosting & Deployment: Replit + Expo Go
 Why we chose it: Replit hosts our development environment with built-in secrets management and Git sync to our public repo, all on its free tier. Expo Go handles running and testing the app on physical devices without needing paid build services.
 Expected constraints: We are intentionally not using Expo Application Services (EAS) builds, since Expo Go alone satisfies the deployability requirement and EAS's free tier has limited monthly build quotas. Replit's free tier can also be slower with multiple simultaneous collaborators, so we test critical flows on physical devices ahead of demo time rather than relying solely on Replit's live preview.
 
-Build Plan & Scope
+* System Architecture Diagram
+  <img width="1128" height="880" alt="image" src="https://github.com/user-attachments/assets/414d51ec-d1cf-401b-8b96-d2ff8478a2e4" />
 
-Our initial prototype (submitted for the ideation round) used mock, locally-stored data to demonstrate the Tempo Dashboard, Tempo Balancer, and Beat Breaks screens. The 3-week build phase below scopes the work to implement the full, real system behind them.
 
-Week 1: Base Core & Authentication (Sept 21 – Sept 27)
-Set up user registration and login flows using Supabase Auth.
-Initialise the PostgreSQL schema for tasks and capacity categories (mental, time, physical, social, errands), and link tables to the app.
-Connect the Tempo Dashboard's capacity gauges to real, persisted data.
 
-Week 2: Energy Algorithm & Tempo Balancer (Sept 28 – Oct 4)
-Build the client-side energy algorithm that aggregates logged tasks into live capacity percentages per category.
-Develop the Tempo Balancer pop-up, which queries the database for low-priority tasks to defer when a gauge crosses the eighty-five percent threshold.
-Build the task input screen, including the simulated mic-button voice capture flow.
 
-Week 3: Beat Breaks & Deployment (Oct 5 – Oct 11)
-Implement the Beat Breaks lockout screen and recovery timer for critical (red zone) capacity states.
-Add mascot animations (Lottie) to the greeting screen and key interaction points.
-Run end-to-end testing on physical devices via Expo Go, then finalise the build and generate a scannable QR code for judges.
+
+* Build Plan & Scope
+    Our initial prototype (submitted for the ideation round) used mock, locally-stored data to demonstrate the Tempo Dashboard, Tempo Balancer, and Beat Breaks screens. The 3-week build phase below scopes the work to          implement the full, real system behind them.
+
+* Week 1: Base Core & Authentication (Sept 21 – Sept 27)
+    Set up user registration and login flows using Supabase Auth.
+    Initialise the PostgreSQL schema for tasks and capacity categories (mental, time, physical, social, errands), and link tables to the app.
+    Connect the Tempo Dashboard's capacity gauges to real, persisted data.
+
+* Week 2: Energy Algorithm & Tempo Balancer (Sept 28 – Oct 4)
+    Build the client-side energy algorithm that aggregates logged tasks into live capacity percentages per category.
+    Develop the Tempo Balancer pop-up, which queries the database for low-priority tasks to defer when a gauge crosses the eighty-five percent threshold.
+    Build the task input screen, including the simulated mic-button voice capture flow.
+
+* Week 3: Beat Breaks & Deployment (Oct 5 – Oct 11)
+    Implement the Beat Breaks lockout screen and recovery timer for critical (red zone) capacity states.
+    Add mascot animations (Lottie) to the greeting screen and key interaction points.
+    Run end-to-end testing on physical devices via Expo Go, then finalise the build and generate a scannable QR code for judges.
