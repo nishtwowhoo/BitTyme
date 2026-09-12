@@ -187,7 +187,7 @@ Why we chose it: A single JavaScript/TypeScript codebase runs natively on both i
   * Expected constraints: Expo's managed workflow does not support true OS-level home screen widgets without ejecting to a bare native workflow, which would break our free, low-friction build process. We are implementing      voice capture as an in-app microphone button rather than a true home screen widget for this build, with a genuine OS widget noted as a future native extension.
 
 ### Backend & Database: (Supabase (PostgreSQL))
-Why we chose it: Supabase provides a managed Postgres database with built-in authentication and auto-generated APIs, letting us avoid building a custom backend during a time-constrained build phase. The free tier requires no card and comfortably covers our scale.
+Why we chose it: Supabase provides a managed PostgresSQL database with built-in authentication and auto-generated APIs, letting us avoid building a custom backend during a time-constrained build phase. The free tier requires no card and comfortably covers our scale.
   * Expected constraints: The free tier limits concurrent active database connections, so we will write efficient, batched queries for the energy algorithm rather than polling continuously.
 
 ### Voice & AI Task Parsing: (Simulated for this build)
