@@ -81,6 +81,7 @@ We explored several distinct concepts during our initial brainstorming sessions 
 #### 2. BitTyme User Journey Flow 
 
 ![BitTyme User Journey Flow](images/User-Flow.png) 
+
 *Figure 2: The User Journey Flow illustrates how a newly captured task moves through natural language parsing, Supabase storage, energy recalculation, and the rebalancing engine.* 
 
 * **Effortless Input & NLP Parsing:** A spoken or quick added entry like "Gym tonight 6 to 7pm" is parsed via natural language processing into a structured task with energy category tags like Physical or Mental. 
