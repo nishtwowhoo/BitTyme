@@ -1,6 +1,6 @@
 # 🥁 BitTyme by The Bit-tles
 **Problem Statement:** Beating the Burnout (Stress & Workload Manager)  
-**Video Presentation:** [Insert Unlisted YouTube Link Here]  
+**Video Presentation:** https://youtu.be/aA7K1EaQvkU  
 **Presentation Slides:** https://canva.link/swn1vcsanp8wf7k  
 
 ---
