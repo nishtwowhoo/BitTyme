@@ -69,6 +69,7 @@ We explored several distinct concepts during our initial brainstorming sessions 
 #### 1. Student Burnout Problem Tree 
 
 ![Student Burnout Problem Tree](images/Problem-Tree.png) 
+
 *Figure 1: The Problem Tree maps the core causes of academic burnout, connecting invisible stress accumulation to severe outcomes like sleep debt and tool abandonment.*
 
 * **Core Problem Identified:** Invisible workload accumulation combined with a habit of constantly saying yes pushes students into academic burnout. 
