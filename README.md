@@ -64,7 +64,28 @@ We explored several distinct concepts during our initial brainstorming sessions 
 | **Streak System** | **Dropped.** We considered introducing a TikTok style daily streak system to encourage consistent task updates and increase engagement. However, mentor feedback highlighted that daily streak requirements introduce unnecessary psychological pressure on already stressed students. Forcing a busy student to log in daily simply to preserve a virtual streak transforms a supportive wellness companion into an administrative burden, actively worsening the very academic burnout we are trying to prevent. |
 | **five bucket system** | **Dropped.** Requiring busy students to manually log and self rate every single task across multiple categories creates heavy cognitive friction and tracking fatigue. This administrative burden risks causing user burnout, turning a wellness tool into an exhausting daily chore rather than a helpful assistant. |
 
-\### 2.2 Ideation Boards &amp; Visual Diagrams #### 1\. Student Burnout Problem Tree ![Student Burnout Problem Tree](images/Problem-Tree.png) \*Figure 1: The Problem Tree maps the core causes of academic burnout, connecting invisible stress accumulation to severe outcomes like sleep debt and tool abandonment.\* \* \*\*Core Problem Identified:\*\* Invisible workload accumulation combined with a habit of constantly saying yes pushes students into academic burnout. \* \*\*Root Cause 1 (Invisible Stress Accumulation):\*\* Traditional calendar tools treat an hour of laundry identically to an hour of an exam, providing no real time signal of remaining energy capacity. \* \*\*Root Cause 2 (Habit of Constantly Saying Yes):\*\* Fear of missing out and a lack of early overload warnings make it easy for students to overcommit before realizing their daily schedule is full. \* \*\*Key Ideation Takeaway:\*\* Highlighting early dead ends such as manual rating buckets and streak counters proved that our solution needed to focus on passive tracking and effortless interaction. --- #### 2\. BitTyme User Journey Flow ![BitTyme User Journey Flow](images/User-Flow.png) \*Figure 2: The User Journey Flow illustrates how a newly captured task moves through natural language parsing, Supabase storage, energy recalculation, and the rebalancing engine.\* \* \*\*Effortless Input &amp; NLP Parsing:\*\* A spoken or quick added entry like "Gym tonight 6 to 7pm" is parsed via natural language processing into a structured task with energy category tags like Physical or Mental. \* \*\*Live Energy Recalculation:\*\* The system aggregates total daily commitments stored in Supabase. If total capacity remains below the 85% threshold, the dashboard gauge stays green with an encouraging message from Tymmie. \* \*\*Smart Intervention &amp; Beat Breaks Lockout:\*\* Crossing the 85% capacity threshold triggers the Rebalancing Engine to suggest shifting non urgent tasks to lighter weeks. Dismissing critical overload activates a Beat Breaks lockout to safeguard student recovery time.
+### 2.2 Ideation Boards &amp; Visual Diagrams 
+
+#### 1. Student Burnout Problem Tree 
+
+![Student Burnout Problem Tree](images/Problem-Tree.png) 
+*Figure 1: The Problem Tree maps the core causes of academic burnout, connecting invisible stress accumulation to severe outcomes like sleep debt and tool abandonment.*
+
+* **Core Problem Identified:** Invisible workload accumulation combined with a habit of constantly saying yes pushes students into academic burnout. 
+* **Root Cause 1 (Invisible Stress Accumulation):** Traditional calendar tools treat an hour of laundry identically to an hour of an exam, providing no real time signal of remaining energy capacity. 
+* **Root Cause 2 (Habit of Constantly Saying Yes):** Fear of missing out and a lack of early overload warnings make it easy for students to overcommit before realizing their daily schedule is full. 
+* **Key Ideation Takeaway:** Highlighting early dead ends such as manual rating buckets and streak counters proved that our solution needed to focus on passive tracking and effortless interaction. 
+
+--- 
+
+#### 2. BitTyme User Journey Flow 
+
+![BitTyme User Journey Flow](images/User-Flow.png) 
+*Figure 2: The User Journey Flow illustrates how a newly captured task moves through natural language parsing, Supabase storage, energy recalculation, and the rebalancing engine.* 
+
+* **Effortless Input & NLP Parsing:** A spoken or quick added entry like "Gym tonight 6 to 7pm" is parsed via natural language processing into a structured task with energy category tags like Physical or Mental. 
+* **Live Energy Recalculation:** The system aggregates total daily commitments stored in Supabase. If total capacity remains below the 85% threshold, the dashboard gauge stays green with an encouraging message from Tymmie. 
+* **Smart Intervention & Beat Breaks Lockout:** Crossing the 85% capacity threshold triggers the Rebalancing Engine to suggest shifting non urgent tasks to lighter weeks. Dismissing critical overload activates a Beat Breaks lockout to safeguard student recovery time.
 
 We consulted with hackathon mentors during the prototype week to pressure test our concept and refine our user experience.
 
